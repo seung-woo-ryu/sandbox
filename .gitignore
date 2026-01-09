@@ -1,24 +1,68 @@
-# Logs
-logs
-*.log
+.idea
+
+# vite build
+packages/**/dist
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+packages/*/.next/
+packages/*/out/
+
+# production
+packages/**/build
+packages/*/temp
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Local SSL certificates
+/.certs/
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+packages/*/next-env.d.ts
+
+dynamic-gitlab-ci.yml
+
+# storybook
+storybook-static
+
+# rollup
+.rollup.cache
+
+# vscode
+.vscode
+
+# gatsby
+.cache/
+packages/cms/**/public
+
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# eslint cache
+.eslintcache
+
+playwright-report
+test-results
+
+CLAUDE.md
+AGENTS.md
+.claude/*
+openspec/*
