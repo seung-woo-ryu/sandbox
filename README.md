@@ -9,6 +9,7 @@
 - 테스트: Vitest (jsdom / 브라우저 모드 분리)
 - 목킹: MSW(Mock Service Worker)
 - 린트: ESLint
+- 문서/컴포넌트 카탈로그: Storybook
 
 구조
 - packages/playground: 앱 패키지
