@@ -23,8 +23,5 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
-  },
-  "include": [
-    "packages/playground/src"
-  ]
+  }
 }
